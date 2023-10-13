@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 유효범위 -->
+  <div id="app">
+    {{ msg }}
+  </div>
+  <!-- 유효범위 -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js"></script>
+  <script>
+  new Vue({
+    el: '#app',
+    data: {
+      msg: 'Hello Vue.js!'
+    }
+  });
+</script>
+</body>
+</html>
+<!-- new Vue({ ... })  -->
+<!-- Vue 인스턴스를 생성하는 시작 부분 new Vuew({})를 사용하여 Vue 인스턴스를 초기화 -->
+
+<!-- el: '#app' Vue 인스턴스의 옵션 중 하나로, 화면에 Vue 인스턴스를 연결할 HTML 요소를 지정 -->
+
+<!-- data: { message: 'Hello Vue.js!'} Vue 인스턴스의 데이터 속성을 정의 -->
+<!-- message라는 데이터 속성을 선언하고 초기값을 "Hello Vue.js" 로 설정 -->
+
+<!-- Vue 인스턴스 초기화 : Vue 인스턴스가 초기화되고 옵션들이 설정 -->
